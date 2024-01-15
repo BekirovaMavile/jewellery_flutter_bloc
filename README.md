@@ -1,16 +1,29 @@
-# jewellry_shop
+# Магазин ювелирных украшений
+Учебный Flutter проект.
+Бизнес логика реализована с помощью BLoC.
 
-A new Flutter project.
+<br/>
+<br/>
+<br/>
 
-## Getting Started
+## :construction: Версии Dart && Flutter
 
-This project is a starting point for a Flutter application.
+```cmd
+doctor --verbose
+[✓] Flutter (Channel stable, 3.16.4, on macOS 14.0 23A344 darwin-arm64, locale ru-RU)
+    • Flutter version 3.16.4 
+    ...
+    • Dart version 3.2.3
+```
+<br/>
+<br/>
+В pubspec.yaml добавлены следующие библиотеки:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```yaml
+dependencies:
+flutter:
+sdk: flutter
+#...
+flutter_bloc: ^8.1.3
+equatable: ^2.0.5
+```
