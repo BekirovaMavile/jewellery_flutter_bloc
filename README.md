@@ -1,9 +1,7 @@
 # Магазин ювелирных украшений
 Учебный Flutter проект.
+<br/>
 Бизнес логика реализована с помощью BLoC.
-
-<br/>
-<br/>
 <br/>
 
 ## :construction: Версии Dart && Flutter
@@ -15,7 +13,6 @@ doctor --verbose
     ...
     • Dart version 3.2.3
 ```
-<br/>
 <br/>
 В pubspec.yaml добавлены следующие библиотеки:
 
